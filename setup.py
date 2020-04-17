@@ -51,7 +51,7 @@ setup(
     author_email='Niel Hu <hu.niel92@gmail.com>',
     url='https://github.com/uber/h3-py.git',
     packages=find_packages(exclude=['tests', 'tests.*']),
-    install_requires=[],
+    install_requires=["cmake"],
     cmdclass={
         'build_ext': CustomBuildExtCommand,
     },
